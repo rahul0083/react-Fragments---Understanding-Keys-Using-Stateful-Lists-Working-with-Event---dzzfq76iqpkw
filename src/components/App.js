@@ -14,6 +14,7 @@ const App = () => {
     for (let i = 1; i < Number(value)+1; i++) {
       
       setList((prev) => [...prev, i]);
+   
     }
    
   };
